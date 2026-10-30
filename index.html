@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feruzbek Rajapboyev | Portfolio</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #08070d;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+header {
+  padding: 25px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: #b66aff;
+  font-size: 23px;
+  font-weight: bold;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.hero {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 10%;
+}
+.hero p {
+  color: #b66aff;
+  letter-spacing: 4px;
+}
+h1 {
+  font-size: clamp(38px, 8vw, 75px);
+  margin: 20px 0;
+}
+h2 {
+  color: #b66aff;
+  font-size: clamp(22px, 4vw, 35px);
+}
+.desc {
+  color: #aaa;
+  max-width: 500px;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 25px;
+  background: #9b4dff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  width: fit-content;
+}
+section {
+  padding: 70px 10%;
+}
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #888;
+}
+html {
+  scroll-behavior: smooth;
+}
+@media(max-width:600px) {
+  header {
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  nav a {
+    margin: 0 7px;
+    font-size: 13px;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">rajapboyev.dev</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <p>WELCOME TO MY WORLD</p>
+  <h1>FERUZBEK<br>RAJAPBOYEV</h1>
+  <h2>Creative Developer</h2>
+  <div class="desc">
+    Men yangi texnologiyalar, kreativ g'oyalar
+    va zamonaviy loyihalar yaratishga qiziqaman.
+  </div>
+  <a class="btn" href="#about">Discover More →</a>
+</div>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p class="desc">
+    Salom! Men Feruzbek Rajapboyev.
+    Bu mening shaxsiy portfolio saytim.
+  </p>
+</section>
+
+<section id="projects">
+  <h2>My Projects</h2>
+  <p class="desc">Tez orada bu yerda loyihalarim paydo bo'ladi.</p>
+</section>
+
+<footer>© 2026 Feruzbek Rajapboyev</footer>
+
+</body>
+  </html>
+  
